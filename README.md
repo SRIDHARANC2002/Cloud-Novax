@@ -182,7 +182,7 @@ Data flows include:
 # AI / Machine Learning Architecture
 
 AI models are used to improve pricing accuracy and fraud detection.
-![AI Architecture](docs/ai_model_architecture.png)
+![AI Architecture](docs/AI_Model_Architecture.png)
 
 ### AI Components
 
