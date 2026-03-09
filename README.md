@@ -69,11 +69,11 @@ Monthly income: ₹20,000 (after expenses)
 
 # Insurance Model
 
-The system uses three key insurance concepts.
+It is based on three main insurance concepts.
 
 ## 1. Parametric Insurance
 
-Claims are triggered automatically when measurable conditions occur.
+First of all, Parametric Insurance uses measurable events (e.g. rainfall exceeding 80 mm) as a trigger for automatic payout without the need for manual claim filing.
 
 Example:
 
@@ -85,7 +85,7 @@ No manual claim submission is required.
 
 ## 2. Micro-Insurance
 
-Low-cost insurance designed for gig workers.
+Secondly, Micro Insurance is affordable insurance designed for gig workers.
 
 | Plan | Weekly Premium | Coverage |
 |-----|-----|-----|
@@ -115,8 +115,7 @@ Worker receives ₹1200 compensation.
 
 # System Architecture
 
-The platform follows a microservice architecture that integrates AI models, environmental monitoring systems, and automated claim processing.
-
+The platform uses a microservice architecture pattern which integrates AI models, environmental monitoring systems, and automated claim processing.
 ## System Architecture Diagram
 ## System Architecture
 
@@ -138,22 +137,22 @@ Architecture includes:
 
 # Application Workflow
 
-The application workflow describes how the platform operates from user registration to claim payout.
-
+It has a mobile app, worker dashboard, admin dashboard, API gateway, microservices, AI engine, event monitor, database, and payment system.
 ## Workflow Diagram
 ![Workflow](docs/Workflow_Diagram.png)
 
 
 ### Workflow Steps
 
-1. Worker registers in the mobile application
-2. AI calculates weekly insurance premium
-3. Worker purchases insurance policy
-4. System continuously monitors weather and pollution data
-5. Disruption event detected
-6. Parametric trigger generates claim
-7. Fraud detection verifies claim
-8. Instant payout sent to worker
+How it works:
+1. A worker joins using the mobile app.
+2. AI figures out the weekly premium.
+3. The worker buys the policy. 
+4. Plus, and the system watches weather and pollution in real time.
+5. If a disruption happens, a claim kicks off.
+6. Fraud checks confirm the claim is valid. 
+7. Payout goes straight to the worker.
+
 
 ---
 
@@ -174,7 +173,7 @@ Data flows include:
 
 # AI / Machine Learning Architecture
 
-AI models are used to improve pricing accuracy and fraud detection.
+Worker detailsWeather and pollution infoClaim handlingPayment stepsAI and machine learning setup AI helps with better pricing and spotting fraud.
 ![AI Architecture](docs/AI_Model_Architecture.png)
 
 ### AI Components
@@ -194,7 +193,7 @@ AI models are used to improve pricing accuracy and fraud detection.
 
 # Parametric Claim Trigger Logic
 
-The parametric insurance mechanism automatically generates claims when disruption conditions are met.
+Main AI parts:Risk forecastFraud checkPricing that changes over time Inputs:Old weather recordsPollution numbersWorker actionsPast claimsRules for auto, claims when events happen
 
 ![Trigger Logic](docs/Parametric_Claim_Trigger.png)
 
@@ -209,7 +208,7 @@ The parametric insurance mechanism automatically generates claims when disruptio
 
 # Dashboard Design
 
-The platform provides dashboards for workers and administrators.
+When events hit, the insurance system starts claims without delay. Dashboards show things clearly:
 
 ![Dashboard Wireframe](docs/Wireframe_Diagram.png)
 
@@ -309,6 +308,4 @@ README.md
 
 # Conclusion
 
-This project combines parametric insurance, micro-insurance, and AI-based risk assessment to create a scalable protection system for gig workers.
-
-By integrating environmental monitoring, machine learning models, and automated claim processing, the platform ensures delivery workers remain financially protected against disruptions that affect their ability to work.
+Conclusion This concept is about bringing together the advantages of parametric insurance, micro, insurance, and AI, based risk assessment to produce a scalable worker protection system for gig workers. Environmental sensors, machine learning algorithms, and automatic claim handling have been combined to make the delivery workers a safe financially from any work disruption due to their inability to work.
