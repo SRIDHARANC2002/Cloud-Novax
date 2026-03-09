@@ -1,0 +1,315 @@
+# AI-Powered Insurance Platform for India’s Gig Economy
+
+## Overview
+
+This project proposes an AI-powered parametric insurance platform designed to protect gig economy delivery workers from income loss caused by environmental disruptions such as extreme weather, pollution, or government restrictions.
+
+Delivery workers working with platforms such as:
+
+- Zomato
+- Swiggy
+- Zepto
+- Amazon
+
+depend heavily on daily deliveries for their income. However, external disruptions can significantly reduce their working hours and earnings.
+
+This system introduces a parametric micro-insurance model where claims are triggered automatically when disruption conditions occur.
+
+---
+
+# Problem Statement
+
+Gig workers face significant income instability due to factors beyond their control.
+
+Common disruption events include:
+
+- Heavy rainfall
+- Extreme heat
+- High air pollution
+- Floods
+- Curfews
+
+These events may prevent workers from completing deliveries and result in loss of daily income.
+
+Currently, there is no insurance mechanism that compensates workers for these disruptions.
+
+---
+
+# Project Objective
+
+The objective of this platform is to:
+
+- Protect gig workers from income loss
+- Provide affordable weekly insurance plans
+- Detect disruption events automatically
+- Trigger claims using parametric triggers
+- Prevent fraud using AI models
+- Deliver instant compensation payouts
+
+---
+
+# Target Persona
+
+## Food Delivery Worker
+
+Example Persona:
+
+Name: Rahul  
+Age: 27  
+City: Bangalore  
+
+Works for a food delivery platform such as Swiggy.
+
+Daily income: ₹600  
+Monthly income: ₹20,000 (after expenses)
+
+### Challenges
+
+- Unstable earnings
+- Weather exposure
+- Lack of income protection
+
+---
+
+# Insurance Model
+
+The system uses three key insurance concepts.
+
+## 1. Parametric Insurance
+
+Claims are triggered automatically when measurable conditions occur.
+
+Example:
+
+Rainfall > 80 mm → System triggers claim.
+
+No manual claim submission is required.
+
+---
+
+## 2. Micro-Insurance
+
+Low-cost insurance designed for gig workers.
+
+| Plan | Weekly Premium | Coverage |
+|-----|-----|-----|
+| Basic | ₹20 | ₹800 |
+| Standard | ₹30 | ₹1500 |
+| Pro | ₹40 | ₹2500 |
+
+---
+
+## 3. Weekly Pricing Model
+
+Gig workers earn income on a weekly cycle.
+
+Therefore the insurance premium is also structured weekly.
+
+Example scenario:
+
+Daily income = ₹600
+
+Heavy rain prevents deliveries for 2 days.
+
+Loss = ₹1200
+
+Worker receives ₹1200 compensation.
+
+---
+
+# System Architecture
+
+The platform follows a microservice architecture that integrates AI models, environmental monitoring systems, and automated claim processing.
+
+## System Architecture Diagram
+![alt text](system_architecture.png)
+Architecture includes:
+
+- Mobile application
+- Worker dashboard
+- Admin dashboard
+- API gateway
+- Insurance microservices
+- AI engine
+- Event monitoring system
+- Database layer
+- Payment system
+
+---
+
+# Application Workflow
+
+The application workflow describes how the platform operates from user registration to claim payout.
+
+## Workflow Diagram
+![alt text](<Workflow Diagram.png>)
+
+### Workflow Steps
+
+1. Worker registers in the mobile application
+2. AI calculates weekly insurance premium
+3. Worker purchases insurance policy
+4. System continuously monitors weather and pollution data
+5. Disruption event detected
+6. Parametric trigger generates claim
+7. Fraud detection verifies claim
+8. Instant payout sent to worker
+
+---
+
+# Data Flow Diagram (DFD)
+
+The Data Flow Diagram illustrates how data moves across the system.
+
+![alt text](dfd.png)
+
+Data flows include:
+
+- Worker data
+- Environmental data
+- Claim processing
+- Payment processing
+
+---
+
+# AI / Machine Learning Architecture
+
+AI models are used to improve pricing accuracy and fraud detection.
+
+![alt text](<AI Model Architecture.png>)
+
+### AI Components
+
+- Risk Prediction Model
+- Fraud Detection Model
+- Dynamic Pricing Model
+
+### AI Inputs
+
+- Historical weather data
+- Pollution levels
+- Worker activity data
+- Claim history
+
+---
+
+# Parametric Claim Trigger Logic
+
+The parametric insurance mechanism automatically generates claims when disruption conditions are met.
+
+![alt text](<Parametric Claim Trigger.png>)
+
+| Event | Condition |
+|------|------|
+| Heavy Rain | Rainfall > 80 mm |
+| Heat Wave | Temperature > 42°C |
+| Severe Pollution | AQI > 350 |
+| Flood Alert | Government warning |
+
+---
+
+# Dashboard Design
+
+The platform provides dashboards for workers and administrators.
+
+![alt text](<Wireframe Diagram.png>)
+
+## Worker Dashboard
+
+Displays:
+
+- Active coverage
+- Protected earnings
+- Claim history
+- Disruption alerts
+
+## Admin Dashboard
+
+Displays:
+
+- Active policies
+- Claims processed
+- Fraud alerts
+- Payout analytics
+
+---
+
+# Technology Stack
+
+## Frontend
+
+- React Native
+- React.js
+
+## Backend
+
+- Node.js
+- Express.js
+
+## AI / Machine Learning
+
+- Python
+- Scikit-learn
+
+## Database
+
+- MongoDB
+- PostgreSQL
+
+## External APIs
+
+- Weather API
+- AQI API
+- Google Maps API
+
+## Payments
+
+- Razorpay Sandbox
+- UPI Simulation
+
+---
+
+# Repository Structure
+
+```
+
+gig-insurance-platform/
+
+frontend/
+backend/
+ai-model/
+docs/
+system_architecture.png
+workflow_diagram.png
+dfd.png
+ai_model_architecture.png
+parametric_trigger.png
+dashboard_wireframe.png
+
+README.md
+
+```
+
+---
+
+# Expected Impact
+
+## For Workers
+
+- Protection from income loss
+- Financial stability during disruptions
+- Affordable insurance coverage
+
+## For Insurance Providers
+
+- Scalable digital insurance model
+- Reduced claim processing costs
+- Automated risk assessment
+
+---
+
+# Conclusion
+
+This project combines parametric insurance, micro-insurance, and AI-based risk assessment to create a scalable protection system for gig workers.
+
+By integrating environmental monitoring, machine learning models, and automated claim processing, the platform ensures delivery workers remain financially protected against disruptions that affect their ability to work.
