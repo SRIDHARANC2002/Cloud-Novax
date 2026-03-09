@@ -148,7 +148,7 @@ Architecture includes:
 The application workflow describes how the platform operates from user registration to claim payout.
 
 ## Workflow Diagram
-![Workflow](docs/workflow_diagram.png)
+![Workflow](docs/Workflow_Diagram.png)
 
 
 ### Workflow Steps
