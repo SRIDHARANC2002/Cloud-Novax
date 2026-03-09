@@ -203,7 +203,7 @@ AI models are used to improve pricing accuracy and fraud detection.
 
 The parametric insurance mechanism automatically generates claims when disruption conditions are met.
 
-![Trigger Logic](docs/parametric_trigger.png)
+![Trigger Logic](docs/Parametric_Claim_Trigger.png)
 
 | Event | Condition |
 |------|------|
@@ -218,7 +218,7 @@ The parametric insurance mechanism automatically generates claims when disruptio
 
 The platform provides dashboards for workers and administrators.
 
-![Dashboard Wireframe](docs/dashboard_wireframe.png)
+![Dashboard Wireframe](docs/Wireframe_Diagram.png)
 
 ## Worker Dashboard
 
