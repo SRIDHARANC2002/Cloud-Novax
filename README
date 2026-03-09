@@ -124,9 +124,7 @@ The platform follows a microservice architecture that integrates AI models, envi
 ## System Architecture Diagram
 ## System Architecture
 
-<p align="center">
-  <img src="docs/system_architecture.png" alt="AI Insurance Architecture" width="1100"/>
-</p>
+![System Architecture](docs/system_architecture.png)
 
 <p align="center">
 <b>Figure: AI-Powered Parametric Insurance System Architecture</b>
