@@ -18,9 +18,9 @@ It seems like a simple way to keep people safe when things change unexpectedly.
 
 # Problem Statement
 
-Gig workers face significant income instability due to factors beyond their control.
+Gig workers often get paid unevenly because things outside their control happen.
 
-Common disruption events include:
+
 
 - Heavy rainfall
 - Extreme heat
@@ -28,22 +28,18 @@ Common disruption events include:
 - Floods
 - Curfews
 
-These events may prevent workers from completing deliveries and result in loss of daily income.
-
-Currently, there is no insurance mechanism that compensates workers for these disruptions.
+That means they lose money each day.
+Right now, no insurance covers these issues.
 
 ---
 
 # Project Objective
 
-The objective of this platform is to:
+We want to: 
+  Help workers keep steady incomeOffer low,
+  Cost weekly plansSpot disruptions fastUse simple rules to send claimsStop,
+  The fake claims with smart checksPay out money right away
 
-- Protect gig workers from income loss
-- Provide affordable weekly insurance plans
-- Detect disruption events automatically
-- Trigger claims using parametric triggers
-- Prevent fraud using AI models
-- Deliver instant compensation payouts
 
 ---
 
@@ -53,14 +49,15 @@ The objective of this platform is to:
 
 Example Persona:
 
-Name: Rahul  
-Age: 27  
-City: Bangalore  
+Name: Rahul
+Age: 27
+City: Bangalore
 
 Works for a food delivery platform such as Swiggy.
 
-Daily income: ₹600  
+Daily income: ₹600
 Monthly income: ₹20,000 (after expenses)
+
 
 ### Challenges
 
@@ -125,9 +122,6 @@ The platform follows a microservice architecture that integrates AI models, envi
 
 ![System Architecture](docs/system_architecture.png)
 
-<p align="center">
-<b>Figure: AI-Powered Parametric Insurance System Architecture</b>
-</p>
 Architecture includes:
 
 - Mobile application
