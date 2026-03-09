@@ -2,18 +2,17 @@
 
 ## Overview
 
-This project proposes an AI-powered parametric insurance platform designed to protect gig economy delivery workers from income loss caused by environmental disruptions such as extreme weather, pollution, or government restrictions.
+This plan helps delivery workers stay covered when bad weather, pollution, or rules change.
 
-Delivery workers working with platforms such as:
+Workers on apps like
+ - Zomato,
+ - Swiggy,
+ - Zepto, or amazon 
+rely on daily gigs to earn money. But storms, smog, or new rules can cut their hours and pay.
 
-- Zomato
-- Swiggy
-- Zepto
-- Amazon
+Now, if a trigger event happens, like a storm or pollution, a claim comes automatically. No need to wait or file forms. It just works when things go wrong.
 
-depend heavily on daily deliveries for their income. However, external disruptions can significantly reduce their working hours and earnings.
-
-This system introduces a parametric micro-insurance model where claims are triggered automatically when disruption conditions occur.
+It seems like a simple way to keep people safe when things change unexpectedly.
 
 ---
 
