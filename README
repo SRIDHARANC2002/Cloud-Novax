@@ -122,7 +122,7 @@ Worker receives ₹1200 compensation.
 The platform follows a microservice architecture that integrates AI models, environmental monitoring systems, and automated claim processing.
 
 ## System Architecture Diagram
-![alt text](system_architecture.png)
+![System Architecture](docs/system_architecture.png)
 Architecture includes:
 
 - Mobile application
@@ -142,7 +142,8 @@ Architecture includes:
 The application workflow describes how the platform operates from user registration to claim payout.
 
 ## Workflow Diagram
-![alt text](<Workflow Diagram.png>)
+![Workflow](docs/workflow_diagram.png)
+
 
 ### Workflow Steps
 
@@ -161,7 +162,7 @@ The application workflow describes how the platform operates from user registrat
 
 The Data Flow Diagram illustrates how data moves across the system.
 
-![alt text](dfd.png)
+![DFD](docs/dfd.png)
 
 Data flows include:
 
@@ -175,8 +176,7 @@ Data flows include:
 # AI / Machine Learning Architecture
 
 AI models are used to improve pricing accuracy and fraud detection.
-
-![alt text](<AI Model Architecture.png>)
+![AI Architecture](docs/ai_model_architecture.png)
 
 ### AI Components
 
@@ -197,7 +197,7 @@ AI models are used to improve pricing accuracy and fraud detection.
 
 The parametric insurance mechanism automatically generates claims when disruption conditions are met.
 
-![alt text](<Parametric Claim Trigger.png>)
+![Trigger Logic](docs/parametric_trigger.png)
 
 | Event | Condition |
 |------|------|
@@ -212,7 +212,7 @@ The parametric insurance mechanism automatically generates claims when disruptio
 
 The platform provides dashboards for workers and administrators.
 
-![alt text](<Wireframe Diagram.png>)
+![Dashboard Wireframe](docs/dashboard_wireframe.png)
 
 ## Worker Dashboard
 
